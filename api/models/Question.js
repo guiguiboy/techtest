@@ -8,9 +8,14 @@
 module.exports = {
 
   attributes: {
-    // e.g., "Polly"
       question: {
         type: 'string'
+      },
+      difficulty: {
+        type: 'integer'
+      },
+      group: {
+        model: 'group'
       }
   }
 };
