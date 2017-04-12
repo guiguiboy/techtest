@@ -46,7 +46,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'GET /question/:id': 'QuestionController.get'
+  'POST /question': 'QuestionController.post'
 
   
 };
