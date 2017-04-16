@@ -20,7 +20,5 @@ module.exports = {
             sails.log('Question id is:', newQuestion.id);
             return res.ok();
         });
-
-
     }
 };
