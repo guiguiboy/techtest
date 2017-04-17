@@ -18,7 +18,7 @@ module.exports = {
             if (err) { return res.serverError(err); }
 
             sails.log('Question id is:', newQuestion.id);
-            return res.ok();
+            return res.json(newQuestion);
         });
     }
 };
